@@ -6,14 +6,14 @@ import tempfile
 root = Path(__file__).resolve().parents[1]
 html = (root / "index.html").read_text(encoding="utf-8")
 
-scripts = re.findall(r"<script\\b[^>]*>([\\s\\S]*?)</script\\s*>", html, re.IGNORECASE)
+scripts = re.findall(r"<script\b[^>]*>([\s\S]*?)</script\s*>", html, re.IGNORECASE)
 if len(scripts) != 1:
     raise SystemExit(f"Expected one inline application script, found {len(scripts)}")
 
-if re.search(r"<script\\b[^>]+src=[\\\"']https?://", html, re.IGNORECASE):
+if re.search(r"<script\b[^>]+src=[\"']https?://", html, re.IGNORECASE):
     raise SystemExit("Unexpected remote JavaScript dependency")
 
-ids = re.findall(r"\\bid=[\\\"']([^\\\"']+)[\\\"']", html, re.IGNORECASE)
+ids = re.findall(r"\bid=[\"']([^\"']+)[\"']", html, re.IGNORECASE)
 duplicates = sorted({value for value in ids if ids.count(value) > 1})
 if duplicates:
     raise SystemExit(f"Duplicate HTML IDs: {duplicates}")
