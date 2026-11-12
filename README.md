@@ -1,5 +1,7 @@
 # Cipher Veil · La Última Bruja del Nexo
 
+[![Static validation](https://github.com/tzayadet/Cipher-Veil/actions/workflows/quality.yml/badge.svg)](https://github.com/tzayadet/Cipher-Veil/actions/workflows/quality.yml) · [![GitHub Pages](https://github.com/tzayadet/Cipher-Veil/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/tzayadet/Cipher-Veil/actions/workflows/jekyll-gh-pages.yml)
+
 An interactive dark-fantasy and science-fiction narrative. The first volume follows a branching story where player choices affect attributes, traits and possible endings.
 
 <p align="center">
@@ -29,6 +31,16 @@ HTML5, CSS3, JavaScript and Google Fonts.
 ## Scope and limitations
 
 A single-player narrative prototype. It does not include account synchronisation or a server-side save system. Progress is not shared across devices.
+
+## Validation
+
+The quality workflow checks the inline JavaScript syntax, rejects remote JavaScript dependencies and detects duplicate HTML IDs:
+
+```bash
+python scripts/validate_site.py
+```
+
+Requires Python 3.11+ and Node.js 22+.
 
 ## Deployment
 
