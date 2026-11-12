@@ -1,36 +1,47 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/INTERACTIVE_FICTION-CIPHER_VEIL-101010?style=for-the-badge&labelColor=050805&color=00FF41" alt="Cipher Veil"/>
+  <img src="https://img.shields.io/badge/HTML_CSS_JS-BROWSER_EXPERIENCE-101010?style=for-the-badge&logo=javascript&logoColor=00FF41" alt="Browser experience"/>
+</p>
+
 # Cipher Veil · La Última Bruja del Nexo
 
 Experiencia narrativa interactiva de fantasía oscura y ciencia ficción. El primer volumen presenta una historia ramificada en la que las decisiones modifican atributos, rasgos y desenlaces.
 
-**Demo:** https://tzayadet.github.io/Cipher-Veil/  
-**Código:** https://github.com/tzayadet/Cipher-Veil
+<p align="center">
+  <a href="https://tzayadet.github.io/Cipher-Veil/"><strong>LIVE EXPERIENCE ↗</strong></a> ·
+  <a href="https://github.com/tzayadet/Cipher-Veil"><strong>SOURCE CODE</strong></a>
+</p>
 
-## Qué incluye
+## Experience
 
 - Prólogo narrativo y capítulos interactivos.
-- Decisiones ramificadas con distintas consecuencias.
+- Decisiones ramificadas con consecuencias.
 - Atributos y rasgos que cambian según las elecciones.
-- Diálogos presentados con efecto de escritura progresiva.
+- Diálogos con efecto de escritura progresiva.
 - Rutas y finales condicionados por el estado de la partida.
 - Interfaz visual propia con ambientación de fantasía oscura.
 
-## Ejecución
+## Play
 
-Es una experiencia estática de navegador. Abre `index.html` o utiliza la demo publicada en GitHub Pages.
+Abre la [experiencia web](https://tzayadet.github.io/Cipher-Veil/) en un navegador moderno o ejecuta `index.html` localmente.
 
 No necesita instalación, backend ni base de datos. La tipografía decorativa se carga desde Google Fonts, por lo que esa parte visual requiere conexión a Internet.
 
-## Alcance
-
-Es un prototipo narrativo de un solo jugador. El progreso se mantiene durante la sesión actual; no hay sincronización de cuentas ni backend de guardado.
-
-## Tecnologías
+## Technology
 
 - HTML5
 - CSS3
 - JavaScript
 - Google Fonts
 
-## Licencia
+## Scope
+
+Prototipo narrativo de un jugador. No hay sincronización de cuentas ni backend de guardado. El progreso no se sincroniza entre dispositivos.
+
+## Deployment
+
+Sitio estático publicado mediante GitHub Pages.
+
+## License
 
 Consulta [LICENSE](LICENSE).
