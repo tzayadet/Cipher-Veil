@@ -1,12 +1,21 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/INTERACTIVE_FICTION-CIPHER_VEIL-101010?style=for-the-badge&labelColor=050508&color=00FF41" alt="Cipher Veil"/>
+  <img src="https://img.shields.io/badge/HTML_CSS_JS-BROWSER_GAME-101010?style=for-the-badge&logo=javascript&logoColor=00FF41" alt="Browser game"/>
+</p>
+
 # Cipher Veil · La Última Bruja del Nexo
+
+<p align="center">
+  <a href="https://tzayadet.github.io/Cipher-Veil/"><strong>LIVE DEMO ↗</strong></a> ·
+  <a href="https://github.com/tzayadet/Cipher-Veil"><strong>SOURCE CODE</strong></a>
+</p>
 
 [![Static validation](https://github.com/tzayadet/Cipher-Veil/actions/workflows/quality.yml/badge.svg)](https://github.com/tzayadet/Cipher-Veil/actions/workflows/quality.yml) · [![GitHub Pages](https://github.com/tzayadet/Cipher-Veil/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/tzayadet/Cipher-Veil/actions/workflows/jekyll-gh-pages.yml)
 
 An interactive dark-fantasy and science-fiction narrative. The first volume follows a branching story where player choices affect attributes, traits and possible endings.
 
 <p align="center">
-  <a href="https://tzayadet.github.io/Cipher-Veil/"><img src="https://img.shields.io/badge/PLAY-OPEN-00a86b?style=flat-square" alt="Play"></a>
-  <a href="https://github.com/tzayadet/Cipher-Veil"><img src="https://img.shields.io/badge/SOURCE-GITHUB-161b22?style=flat-square&logo=github" alt="Source"></a>
+  
 </p>
 
 ## Experience
